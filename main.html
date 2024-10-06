@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>morse</title>
+</head>
+<body>
+    <h1>Морзе-український перекладач</h1>
+    <div id="main_div">
+        <div id="ukr_morze_translate_div">
+            <section>
+                <h2>Укр-морзе</h2>
+                <textarea id="ukr_morze"></textarea>
+                <button type="button" onclick="ukrMorseTransleteFunction()">перекласти</button>
+                <p id="output1"></p>
+            </section>
+        </div>
+        <div id="morze_ukr_translate_div">
+            <section>
+                <h2>Морзе-укр</h2>
+                <textarea id="morze_ukr"></textarea>
+                <button type="button" onclick="morseUkrTransleteFunction()">перекласти</button>
+                <p id="output2"></p>
+            </section>
+        </div>
+    </div>
+
+    <script src="./translate.js"></script>
+</body>
+</html>
