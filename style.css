@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+}
+
+#main_div {
+    display: inline-flex;
+    gap: 20px;
+}
+
+section {
+    border: 1px solid;
+    width: 650px;
+    height: 500px;
+}
+
+
+
+button {
+    width: 300px;
+    height: 30px;
+
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(88, 175, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: rgb(35, 141, 35);
+}
+
+textarea {
+    width: 380px;
+    height: 60px;
+}
+
+section > p {
+    font-size: 26px;
+}
+
+#outputDiv1,
+#unknownDiv {
+    border: 1px solid;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
