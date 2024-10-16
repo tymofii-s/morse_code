@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>morse</title>
+</head>
+<body>
+    <header>
+        <h1>Морзе-український перекладач</h1>
+    </header>
+    <main>
+        <div id="main_div">
+            <div id="ukr_morze_translate_div">
+                <section id="section1">
+                    <h2>Укр-морзе</h2>
+                    <textarea id="ukr_morze"></textarea>
+                    <button type="button" onclick="ukrMorseTransleteFunction()">перекласти</button>
+                    <div id="outputDiv1" class="border_output_div">
+                        <h3>Переклад:</h3>
+                        <textarea id="output1"></textarea>
+                    </div>
+                    <div id="unknownDiv1" class="border_unknown_div">
+                        <h3 id="unknownSymbolsHeading">Невідомі символи:</h3>
+                        <div id="unknownSymbolsList"></div>
+                    </div>
+                </section>
+            </div>
+            <div id="morze_ukr_translate_div">
+                <section id="section2">
+                    <h2>Морзе-укр</h2>
+                    <textarea id="morze_ukr"></textarea>
+                    <button type="button" onclick="morseUkrTransleteFunction()">перекласти</button>
+                    <div id="outputDiv2" class="border_output_div">
+                        <h3>Переклад:</h3>
+                        <textarea id="output2"></textarea>
+                    </div>
+                    <div id="unknownDiv2" class="border_unknown_div">
+                        <h3 id="unknownSymbolsHeading">Невідомі символи:</h3>
+                        <div id="unknownSymbolsList"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div id="responseDiv">
+            <p>Залиште свій відгук тут. Якщо знайшли помилку, то все одно пишіть сюди</p>
+            <textarea id="response"></textarea>
+            <button type="button" onclick="getResponce()">Відправити</button>
+            <p id="frase"></p>
+        </div>
+    </footer>
+    <script src="./translate.js"></script>
+</body>
+</html>
