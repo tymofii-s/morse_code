@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+}
+
+/*  1. #808000 - оливково зелений 
+    2. #D2691E - теракотовий 
+    3. #98FB98 - м'ятний зелений 
+    4. #8B4513 - темно коричневий 
+    5. #C3B091 - темний бежевий */
+header {
+    background-color: #808000;
+    padding: 20px;
+    color: white;
+}
+
+main {
+    background-color: #FFFDD0;
+    width: 1340px;
+}
+
+footer {
+    background-color: #808000;
+    color: white;
+    height: 300px;
+    padding: 20px;
+}
+
+#main_div {
+    display: inline-flex;
+    gap: 20px;
+
+    padding-top: 30px;
+}
+
+section {
+    border: 5px solid;
+    border-color: #808000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+    width: 650px;
+    height: 550px;
+}
+
+
+
+h2, h3, p {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(88, 175, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 30px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: rgb(35, 141, 35);
+}
+
+textarea {
+    border: 2px solid;
+    border-color: #D2691E;
+    width: 380px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+section > p {
+    font-size: 26px;
+}
+
+.border_output_div {
+    border: 3px solid;
+    border-color: #8B4513;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.border_unknown_div {
+    border: 3px solid;
+    border-color: #8B4513;
+    width: 500px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/* .border_div textarea {
+    border: 2px solid;
+    border-color: #D2691E;
+} */
+
+#responseDiv {
+    margin-left: 30px;
+    padding: 20px;
+
+    width: 500px;
+    height: 250px;
+    background-color: #b9b901;
+}
+
+#responseDiv textarea {
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.bigP {
+    font-size: 18px;
+}
